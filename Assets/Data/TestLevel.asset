@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 127c5a18b95823140b04a82b736cfc85, type: 3}
+  m_Name: TestLevel
+  m_EditorClassIdentifier: Assembly-CSharp::LevelDataSO
+  levelIndex: 1
+  levelName: Test level
+  startEndpoints:
+  - startPoint:
+      mapObject: {fileID: 8165131365324483691, guid: 290cf987cb8145d43b3ce5ee26c3d39b, type: 3}
+      originPos: {x: 0, y: 9}
+    endPoint:
+      mapObject: {fileID: 8165131365324483691, guid: 7f0b464af6e376d4ea2399a587f73c15, type: 3}
+      originPos: {x: 7, y: 9}
+  - startPoint:
+      mapObject: {fileID: 8165131365324483691, guid: 290cf987cb8145d43b3ce5ee26c3d39b, type: 3}
+      originPos: {x: 0, y: 6}
+    endPoint:
+      mapObject: {fileID: 8165131365324483691, guid: 7f0b464af6e376d4ea2399a587f73c15, type: 3}
+      originPos: {x: 6, y: 0}
+  objectPlacements:
+  - mapObject: {fileID: 1791807008530982952, guid: 4792b78e6c6cf1a4ea81ecbf83d9a0d3, type: 3}
+    originPos: {x: 2, y: 9}
+  - mapObject: {fileID: 1791807008530982952, guid: 4792b78e6c6cf1a4ea81ecbf83d9a0d3, type: 3}
+    originPos: {x: 2, y: 6}
+  draggableObjects:
+  - {fileID: 4382185821239049143, guid: ca794812919f3394192d58673d893b59, type: 3}
+  - {fileID: 7837789651189382049, guid: 821418c4a1f3acc4d84d39c8e6f9a36c, type: 3}
+  Budget: 100
